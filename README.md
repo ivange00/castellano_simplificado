@@ -72,9 +72,10 @@ dist/trad_inutil.exe
 
 ```text
 .
-├── trad_inutil.py       # Código fuente
-├── trad_inutil.exe      # Ejecutable para Windows
-└── README.md         # Documentación
+├── LICENSE
+├── README.md
+├── trad_inutil.exe
+└── trad_inutil.py
 ```
 
 ## Limitaciones
