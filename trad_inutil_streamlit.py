@@ -31,9 +31,10 @@ def translate(text):
 # %%
 st.title("Castellano simplificado")
 
-text = st.text_area("Texto a traducir:")
+with st.form("translator"):
+    text = st.text_input("Texto a traducir:")
+    submitted = st.form_submit_button("Traducir")
 
-if text:
-    translated_text = translate(text)
+if submitted:
     st.subheader("Resultado")
-    st.write(translated_text)
+    st.write(translate(text))
