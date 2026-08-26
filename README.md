@@ -49,12 +49,6 @@ trad_inutil.exe
 
 No es necesario tener Python instalado.
 
-También puedes ejecutar el programa desde una terminal:
-
-```bash
-trad_inutil.exe
-```
-
 ## Ejecutar desde Python
 
 Si quieres ejecutar el código fuente, necesitas tener Python instalado.
