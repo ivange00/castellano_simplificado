@@ -19,9 +19,7 @@ def translate(text):
     lower_text = lower_text.replace('h', '')
     lower_text = lower_text.replace('ce', 'ze')
     lower_text = lower_text.replace('ci', 'zi')
-    lower_text = lower_text.replace('ca', 'ka')
-    lower_text = lower_text.replace('co', 'ko')
-    lower_text = lower_text.replace('cu', 'ku')
+    lower_text = lower_text.replace('c', 'k')
     translated_text = lower_text
     return translated_text
 
